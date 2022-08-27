@@ -20,12 +20,12 @@ const Footer: React.FunctionComponent<IFooterProps> = (props) => {
           range of functions, including business, engineering, maintenance and
           operations.
         </p>
-        <div className="flex lg:w-[70%] w-[40%] my-4 justify-between">
-          <FaTwitter size={25} />
-          <FaDribbbleSquare size={25}/>
-          <FaFacebookSquare size={25}/>
-          <FaInstagram size={25}/>
-          <FaLinkedin size={25}/>
+        <div className="flex my-4">
+          <FaTwitter size={25}  className="mr-2"/>
+          <FaDribbbleSquare size={25} className="mx-2"/>
+          <FaFacebookSquare size={25} className="mx-2"/>
+          <FaInstagram size={25} className="mx-2"/>
+          <FaLinkedin size={25} className="mx-2"/>
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">

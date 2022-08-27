@@ -10,7 +10,7 @@ const Analytics: React.FunctionComponent<IAnalyticsProps> = (props) => {
         <img src={laptop} alt="Tailwind" className="w-[500px] mx-auto my-4"/>
         <div className="flex flex-col justify-center items-center md:items-start">
           <p className="text-[#00df9a] text-xl font-bold">DATA ANALYTICS DASHBOARD</p>
-          <h1 className="capitalize md:text-4xl sm:text-3xl text-2xl font-bold py-2 ">Manage data analytics centrally</h1>
+          <h1 className="capitalize md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-center md:text-start">Manage data analytics centrally</h1>
           <p className="text-center md:text-start">
             Our goal is to help our clients manage and analyze their data to
             make better decisions. Today, organizations are collecting more data
